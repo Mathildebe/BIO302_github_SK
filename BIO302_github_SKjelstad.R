@@ -29,3 +29,4 @@ use_github()
 # doing some maths
 1/2
 2/1
+4/2
