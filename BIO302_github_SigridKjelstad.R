@@ -45,7 +45,8 @@ library(sciplot)
 palmerpenguins::penguins
 
 palmerpenguins::penguins %>% 
-  ggplot(aes (x = island, y = bill_length_mm))+
+  ggplot(aes (x = island, y = bill_length_mm, fill = island))+
   geom_boxplot()+
-  labs(x="Island", y="Bill length (mm)")
+  labs(x="Island", y="Bill length (mm)")+
+  theme(legend.position="none")
 
