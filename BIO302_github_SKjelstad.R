@@ -26,7 +26,7 @@ use_github()
 ## make copy
 # create_from_github("sigridkjelstad/BIO302_github_SK")
 
-# doing some maths
+# doing some math
 1/2
 2/1
 4/2
