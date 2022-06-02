@@ -20,3 +20,12 @@ usethis::use_git()
 ## rename branch to main
 git_default_branch_rename()
 
+## create repo
+use_github()
+
+## make copy
+# create_from_github("sigridkjelstad/BIO302_github_SK")
+
+# doing some maths
+1/2
+2/1
